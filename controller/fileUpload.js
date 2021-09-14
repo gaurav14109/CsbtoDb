@@ -2,7 +2,6 @@ const multer = require('multer')
 const multerUploader = require('../config/multer')
 const upload = multerUploader.single('uploaded_file');
 
-//will process the file upload and return with success or failure
 
 exports.fileUpload = (req, res ,next) => {
     

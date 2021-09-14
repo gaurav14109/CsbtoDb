@@ -1,7 +1,6 @@
 const fs = require('fs');
 const readline = require('readline');
 const CsvData = require('../models/CsvData')
-//insert data to database
 
 exports.insertRecord = async (req, res) => {
     
